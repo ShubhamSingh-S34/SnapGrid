@@ -131,7 +131,7 @@ const MainSection = () => {
         )}
       </div>
 
-      <div className=" dark:bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 p-5">
+      <div className=" dark:bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 p-5 overflow-hidden">
         {images &&
           images.map((image, index) => {
             return (
